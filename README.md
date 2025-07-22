@@ -42,8 +42,7 @@ You can install any missing modules using:
 
 ```bash
 pip install -r requirements.txt
-
----
+```
 
 ℹ️ This app uses only standard Python libraries (socket, threading) — no external dependencies needed.
 

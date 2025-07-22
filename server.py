@@ -1,7 +1,6 @@
 import socket
 import threading
 
-# Server settings
 HOST = '127.0.0.1'
 PORT = 55555
 
@@ -12,12 +11,10 @@ server.listen()
 clients = []
 nicknames = []
 
-# Broadcast message to all clients
 def broadcast(message):
     for client in clients:
         client.send(message)
-
-# Handle individual client
+        
 def handle(client):
     while True:
         try:
@@ -32,7 +29,6 @@ def handle(client):
             nicknames.remove(nickname)
             break
 
-# Accept clients
 def receive():
     print("Server is running...")
     while True:

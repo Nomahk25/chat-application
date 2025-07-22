@@ -43,8 +43,11 @@ You can install any missing modules using:
 ```bash
 pip install -r requirements.txt
 ```
+---
 
 ℹ️ This app uses only standard Python libraries (socket, threading) — no external dependencies needed.
+
+---
 
 🖥️ Running the App
 1. Start the Server
@@ -63,6 +66,8 @@ python client.py
 Enter your nickname when prompted, and start chatting!
 You can open as many client instances as you'd like (locally or over LAN if modified).
 
+---
+
 🌐 Customizing Host/Port
 
 In both server.py and client.py, change:
@@ -74,8 +79,12 @@ To allow remote access:
 Use your public/private IP instead of 127.0.0.1
 Make sure the port is open and not blocked by firewall
 
+---
+
 📄 License
 This project is licensed under the MIT License. Free to use and modify!
+
+---
 
 🙋 Author
 Built by Nomanguni Khumalo with Python & 💬
